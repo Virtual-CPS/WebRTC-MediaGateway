@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\LibBase\src\crypto\src\cipher.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\crypto\src\crypto.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\crypto\src\hash.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\crypto\src\hmac.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\crypto\src\rsa.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\crypto\src\x509certificate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibBase\src\crypto\include\scy\crypto\cipher.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\crypto\include\scy\crypto\crypto.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\crypto\include\scy\crypto\hash.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\crypto\include\scy\crypto\hmac.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\crypto\include\scy\crypto\rsa.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\crypto\include\scy\crypto\x509certificate.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{ACD432E1-2CA4-3D2E-AFE3-7118328D8255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{543D804C-099C-3942-A722-BCC1B919FEB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

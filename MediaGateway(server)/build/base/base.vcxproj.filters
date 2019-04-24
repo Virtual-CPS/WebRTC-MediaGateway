@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\LibBase\src\base\src\application.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\base64.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\buffer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\collection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\configuration.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\datetime.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\filesystem.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\idler.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\logger.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\memory.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\numeric.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\packetstream.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\pipe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\platform.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\process.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\random.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\runner.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\stateful.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\stream.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\synchronizer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\task.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\thread.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\time.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\timer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\base\src\util.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\application.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\base.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\base64.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\bitwise.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\buffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\byteorder.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\collection.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\configuration.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\datetime.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\delegate.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\error.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\filesystem.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\handle.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\hex.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\idler.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\interface.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\ipc.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\logger.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\loop.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\memory.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\numeric.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\once.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packet.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetfactory.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetio.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetqueue.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetsignal.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetstream.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packettransaction.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\pipe.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\platform.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\process.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\queue.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\random.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\request.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\runner.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\sharedlibrary.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\signal.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\singleton.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\stateful.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\stream.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\synchronizer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\task.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\test.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\thread.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\time.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\timer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\util.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{ACD432E1-2CA4-3D2E-AFE3-7118328D8255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{543D804C-099C-3942-A722-BCC1B919FEB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

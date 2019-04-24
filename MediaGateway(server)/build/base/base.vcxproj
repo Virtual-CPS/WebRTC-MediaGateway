@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{673845B2-293C-3D8C-A832-31BEE2FC772A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>base</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)Libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">scy_$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)Libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">scy_$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)Libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">scy_$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)Libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">scy_$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\webrtc\src;..\..\..\webrtc\src\third_party\boringssl\src\include;..\..\..\ffmpeg\dev\include;..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;..\..\LibBase\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\webrtc\src;..\..\..\webrtc\src\third_party\boringssl\src\include;..\..\..\ffmpeg\dev\include;..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;..\..\LibBase\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\webrtc\src;..\..\..\webrtc\src\third_party\boringssl\src\include;..\..\..\ffmpeg\dev\include;..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;..\..\LibBase\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\webrtc\src;..\..\..\webrtc\src\third_party\boringssl\src\include;..\..\..\ffmpeg\dev\include;..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;..\..\LibBase\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;Base_EXPORTS;NOMINMAX;WEBRTC_WIN;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\LibBase\src\base\include;..\..\LibBase\vendor\http_parser;C:\webrtc\src;C:\webrtc\src\third_party\boringssl\src\include;C:\webrtc\MediaGateway\ffmpeg\dev\include;..\..\LibBase\vendor\zlib;C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib;..\..\LibBase\vendor\minizip;..\..\LibBase\vendor\libuv\include;..\..\LibBase\vendor\json\src;C:\webrtc\MediaGateway\MediaGateway\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibBase\src\base\src\application.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\base64.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\buffer.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\collection.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\configuration.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\datetime.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\filesystem.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\idler.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\logger.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\memory.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\numeric.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\packetstream.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\pipe.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\platform.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\process.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\random.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\runner.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\stateful.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\stream.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\synchronizer.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\task.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\test.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\thread.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\time.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\timer.cpp" />
+    <ClCompile Include="..\..\LibBase\src\base\src\util.cpp" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\application.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\base.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\base64.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\bitwise.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\buffer.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\byteorder.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\collection.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\configuration.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\datetime.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\delegate.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\error.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\filesystem.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\handle.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\hex.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\idler.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\interface.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\ipc.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\logger.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\loop.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\memory.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\numeric.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\once.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packet.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetfactory.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetio.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetqueue.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetsignal.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packetstream.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\packettransaction.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\pipe.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\platform.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\process.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\queue.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\random.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\request.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\runner.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\sharedlibrary.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\signal.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\singleton.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\stateful.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\stream.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\synchronizer.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\task.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\test.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\thread.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\time.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\timer.h" />
+    <ClInclude Include="..\..\LibBase\src\base\include\scy\util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\webrtc\MediaGateway\MediaGateway\build\vendor\http_parser\http_parser.vcxproj">
+      <Project>{BF29A44B-E249-3409-ABFD-B8E7C2192D77}</Project>
+      <Name>http_parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\webrtc\MediaGateway\MediaGateway\build\vendor\libuv\libuv.vcxproj">
+      <Project>{5D0797D1-38BF-3C7F-A3FD-6523D68B49E9}</Project>
+      <Name>libuv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\webrtc\MediaGateway\MediaGateway\build\vendor\minizip\minizip.vcxproj">
+      <Project>{491E308A-AADA-3F4D-8998-9731CFF3A8DB}</Project>
+      <Name>minizip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\webrtc\MediaGateway\MediaGateway\build\vendor\zlib\zlib.vcxproj">
+      <Project>{7A1A6636-D5F3-3A71-A8C1-5D62E3861326}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

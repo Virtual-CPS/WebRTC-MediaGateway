@@ -1,0 +1,29 @@
+{
+  /* The ID of the node instance */
+  "nodeId" : 2,
+  
+  /* Symple server URL [http/https], http://sympleserver.sourcey.com */
+  "host" : "localhost",
+
+  /* The port to listen on */
+  "port" : 4551,
+
+  /* Allow anonymous connections */
+  "anonymous" : true,
+
+  /* Session ttl in minutes */
+  "sessionTtl" : 15/*,*/
+
+  /* Redis configuration
+  "redis" : {
+    "host" : "localhost",
+    "port" : 6379
+  }, */
+
+  /* SSL configuration
+  "ssl" : {
+    "enabled" : false,
+    "key" : "ssl/symple.key",
+    "cert" : "ssl/symple.crt"
+  } */
+}

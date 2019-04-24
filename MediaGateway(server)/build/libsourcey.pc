@@ -1,0 +1,14 @@
+Name: LibSourcey
+Description: LibSourcey C++ Networking Evolved
+Version: 1.0.2
+
+prefix=C:/webrtc/MediaGateway/MediaGateway
+exec_prefix=C:/webrtc/MediaGateway/MediaGateway/bin
+libdir=C:/webrtc/MediaGateway/MediaGateway/lib
+includedir=C:/webrtc/MediaGateway/MediaGateway/include
+vendorlibdir=C:/webrtc/MediaGateway/MediaGateway/share/libsourcey/vendor/lib
+vendorincludedir=C:/webrtc/MediaGateway/MediaGateway/share/libsourcey/vendor/include
+
+Requires:
+Libs: -L${libdir} -L${vendorlibdir}  -lscy_archo -lscy_av -lscy_base -lscy_crypto -lscy_http -lscy_json -lscy_net -lscy_sched -lscy_socketio -lscy_stun -lscy_symple -lscy_turn -lscy_util -lscy_webrtc -llibuv -lzlib -lminizip -lhttp_parser
+Cflags: -I${includedir} -I${vendorincludedir}

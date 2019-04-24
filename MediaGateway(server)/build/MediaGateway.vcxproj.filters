@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\server\VideoOnDemandPeer.cpp" />
+    <ClCompile Include="..\server\main.cpp" />
+    <ClCompile Include="..\server\signaler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\server\VideoOnDemandPeer.h" />
+    <ClInclude Include="..\server\config.h" />
+    <ClInclude Include="..\server\signaler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{311F69EB-D144-3DDE-AEF9-529E7777AE15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8712B5B3-657B-3A52-9F63-AD566122D9B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

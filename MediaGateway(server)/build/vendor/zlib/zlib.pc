@@ -1,0 +1,13 @@
+prefix=C:/webrtc/MediaGateway/MediaGateway
+exec_prefix=C:/webrtc/MediaGateway/MediaGateway
+libdir=C:/webrtc/MediaGateway/MediaGateway/share/libsourcey/vendor/lib
+sharedlibdir=C:/webrtc/MediaGateway/MediaGateway/share/libsourcey/vendor/lib
+includedir=C:/webrtc/MediaGateway/MediaGateway/share/libsourcey/vendor/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\LibBase\src\net\src\address.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\packetsocket.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\socketadapter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\socketemitter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\ssladapter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\sslcontext.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\sslmanager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\sslsession.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\sslsocket.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\tcpsocket.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\udpsocket.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\net\src\util.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\address.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\dns.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\net.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\packetsocket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\socket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\socketadapter.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\socketemitter.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\ssladapter.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\sslcontext.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\sslmanager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\sslsession.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\sslsocket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\tcpsocket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\transaction.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\udpsocket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\net\include\scy\net\util.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{ACD432E1-2CA4-3D2E-AFE3-7118328D8255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{543D804C-099C-3942-A722-BCC1B919FEB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

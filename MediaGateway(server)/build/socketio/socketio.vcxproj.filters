@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\LibBase\src\socketio\src\client.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\socketio\src\packet.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\socketio\src\transaction.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibBase\src\socketio\include\scy\socketio\client.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\socketio\include\scy\socketio\packet.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\socketio\include\scy\socketio\socketio.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\socketio\include\scy\socketio\transaction.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{ACD432E1-2CA4-3D2E-AFE3-7118328D8255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{543D804C-099C-3942-A722-BCC1B919FEB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

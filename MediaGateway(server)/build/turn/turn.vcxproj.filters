@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\LibBase\src\turn\src\client\client.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\client\tcpclient.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\client\udpclient.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\fivetuple.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\iallocation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\server\server.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\server\serverallocation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\server\tcpallocation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\server\tcpconnectionpair.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibBase\src\turn\src\server\udpallocation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\client\client.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\client\tcpclient.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\client\udpclient.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\fivetuple.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\iallocation.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\permission.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\server\server.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\server\serverallocation.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\server\tcpallocation.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\server\tcpconnectionpair.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\server\udpallocation.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\turn.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibBase\src\turn\include\scy\turn\types.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{ACD432E1-2CA4-3D2E-AFE3-7118328D8255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{543D804C-099C-3942-A722-BCC1B919FEB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
